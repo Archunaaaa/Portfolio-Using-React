@@ -2,15 +2,16 @@ import React from 'react'
 import './App.css'
 import Header from './Components/Header'
 import Body from './Components/Body';
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-
+import About from './Components/About';
+import Projects from './Components/Projects';
 function App () {
   return (
     <div>
       <Header />
       <Body />
-      <FaGithub />
-      <FaLinkedin />
+      <About />
+      <Projects />
+    
     </div>
   )
 }
