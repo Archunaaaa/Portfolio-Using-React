@@ -42,7 +42,7 @@ const Projects = () => {
                                             ? <p className='description-min'>{project.description}</p>
                                             :  <p className='description'>{project.description}</p>                                            
                                         }
-                                        <div>
+                                        <div> 
                                             <a
                                             className="project-button"
                                             target="_blank"
